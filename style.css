@@ -1,11 +1,27 @@
 body{
     font-family:sans-serif;
     margin : 0 50px;
+    background-color: skyblue;
 }
 
 .container{
     display: flex;
     gap : 50px;
+    width: 760px;
+    background-color: aquamarine;
+}
+
+#form{
+    margin-left: 30px;
+}
+
+.submit{
+    background-color: skyblue;
+    border: 0;
+    border-radius: 10%;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 20px;
 }
 
 #posts{
